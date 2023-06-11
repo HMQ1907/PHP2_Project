@@ -69,12 +69,6 @@ $app->route->add('/admin/posts/edit/:id', 'Admin/Posts@edit', 'POST');
 $app->route->add('/admin/posts/save/:id', 'Admin/Posts@save', 'POST');
 $app->route->add('/admin/posts/delete/:id', 'Admin/Posts@delete', 'POST');
 
-// Admin => Comments
-//$app->route->add('/admin/posts/:id/comments', 'Admin/Comments');
-//$app->route->add('/admin/comments/edit/:id', 'Admin/Comments@edit');
-//$app->route->add('/admin/comments/save/:id', 'Admin/Comments@save', 'POST');
-//$app->route->add('/admin/comments/delete/:id', 'Admin/Comments@delete');
-
 
 // Admin Categories Routes
 $app->route->add('/admin/categories', 'Admin/Categories');
@@ -116,11 +110,6 @@ $app->route->add('/register/submit', 'Blog/Register@submit', 'POST');
 $app->route->add('/login', 'Blog/Login');
 $app->route->add('/login/submit', 'Blog/Login@submit', 'POST');
 $app->route->add('/logout', 'Blog/Logout');
-//$app->route->add('/contact-us', 'Blog/Contact');
-//$app->route->add('/contact-us/submit', 'Blog/Contact@submit', 'POST');
-//$app->route->add('/about-us', 'Blog/About');
-//$app->route->add('/profile', 'Blog/Profile');
-//$app->route->add('/search', 'Blog/Search');
 
 
 // Not Found Routes
